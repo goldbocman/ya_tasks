@@ -1,0 +1,21 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  color: black;
+}
+
+h4 {
+  color: gray;
+}
+
+header {
+  background-color: lightblue;
+}
+
+.navbar-brand {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}

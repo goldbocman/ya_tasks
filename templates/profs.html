@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <link rel="stylesheet" href="{{ styles }}">
+    <h4 align="left">И на Марсе будут яблони цвести!</h4>
+    <meta charset="UTF-8">
+    {% if 'инженер' in prof or 'строитель' in prof %}
+
+        <h2 align="center">Инженерные тренажеры</h2>
+        <img src="{{ ing }}" alt="здесь картинка">
+
+    {% else %}
+
+        <h2 align="center">Научные симуляторы</h2>
+        <img src="{{ sci }}" alt="здесь картинка">
+
+    {% endif %}
+{% endblock %}
